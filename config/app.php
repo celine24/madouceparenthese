@@ -143,7 +143,7 @@ return [
         App\Providers\AppServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-        Collective\Html\HtmlServiceProvider::class, /*ligne ajoutée avec tuto OC*/
+        Collective\Html\HtmlServiceProvider::class, /*ligne ajoutée avec tuto OC -instal et orga, fin de page*/
 
     ],
 

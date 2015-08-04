@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('{page}', function ($page) {
+	return response('Je suis la page ' . $page . ' !', 200); 
+
+    //return view('welcome');
+})->where('page', '[a-z]+');
