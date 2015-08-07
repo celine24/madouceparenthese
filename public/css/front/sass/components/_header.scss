@@ -1,0 +1,46 @@
+header#mdp-header-container {
+	background: #1A0D04 none repeat scroll 0% 0%;
+	width:100%;
+	#mdp-header-logo-container {
+		max-width: 990px;
+	    height: 135px;
+	    padding-top: 5px;
+	    margin: 0 auto;
+	    text-align: left;
+	}
+
+	nav {
+		background: transparent linear-gradient(to bottom, #2B1608 0%, #1A0D04 100%) repeat scroll 0% 0%;
+		box-shadow: 0 -5px 20px 5px #000;
+		width: 100%;
+
+		ul {
+			font-size: 0;
+			height: 40px;
+			margin: 0 auto;
+			max-width: 990px;
+			display:flex;
+			flex-flow:row wrap;
+			justify-content:center;
+
+			li {
+
+				a {
+					color: #93B85F;
+					display: block;
+					font-family: $fontArial;
+					font-size: 12px;
+					font-weight: bold;
+					height: 20px;
+					letter-spacing: 1px;
+					padding: 10px 40px;					
+					text-align:center;
+				}
+
+				&:hover {
+					background-color:#361C0A;
+				}
+			}
+		}
+	}
+}

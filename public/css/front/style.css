@@ -1,0 +1,119 @@
+#container {
+  background-image: url("../../img/fond.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  margin: 0;
+  max-width: 100%;
+  height: 300px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Components
+|--------------------------------------------------------------------------
+*/
+footer#mdp-footer-container {
+  background-color: #1A0D04;
+  bottom: 0;
+  height: auto;
+  position: fixed;
+  width: 100%;
+}
+
+footer#mdp-footer-container ul {
+  font-size: 0;
+  height: auto;
+  margin: 0 auto;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer#mdp-footer-container ul li a {
+  color: #93B85F;
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 16px;
+  letter-spacing: 1px;
+  padding: 5px 40px;
+  text-align: center;
+}
+
+footer#mdp-footer-container ul li:hover {
+  background-color: #361C0A;
+}
+
+header#mdp-header-container {
+  background: #1A0D04 none repeat scroll 0% 0%;
+  width: 100%;
+}
+
+header#mdp-header-container #mdp-header-logo-container {
+  max-width: 990px;
+  height: 135px;
+  padding-top: 5px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+header#mdp-header-container nav {
+  background: transparent -webkit-linear-gradient(top, #2B1608 0%, #1A0D04 100%) repeat scroll 0% 0%;
+  background: transparent linear-gradient(to bottom, #2B1608 0%, #1A0D04 100%) repeat scroll 0% 0%;
+  box-shadow: 0 -5px 20px 5px #000;
+  width: 100%;
+}
+
+header#mdp-header-container nav ul {
+  font-size: 0;
+  height: 40px;
+  margin: 0 auto;
+  max-width: 990px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header#mdp-header-container nav ul li a {
+  color: #93B85F;
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  height: 20px;
+  letter-spacing: 1px;
+  padding: 10px 40px;
+  text-align: center;
+}
+
+header#mdp-header-container nav ul li:hover {
+  background-color: #361C0A;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Layouts
+|--------------------------------------------------------------------------
+*/

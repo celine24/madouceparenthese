@@ -12,11 +12,21 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('front.template');
 });
 
 Route::get('{page}', function ($page) {
 	return response('Je suis la page ' . $page . ' !', 200); 
-
-    //return view('welcome');
 })->where('page', '[a-z]+');
+
+/*pour les articles : 
+Route::get('article/{n}', function ($n) {
+	 return view('article')->with('numero', $n);  
+	})->where('n', '[0-9]+');
+
+	ou méthode magique :
+	return view('article')->withNumero($n);
+
+get('/', ['uses' => 'WelcomeController@index', 'as' => 'home']);
+->Ici on nomme home la route vers la méthode index du contrôleur HomeController 
+pour l'URL de base.*/

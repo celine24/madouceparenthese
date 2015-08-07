@@ -1,0 +1,36 @@
+footer#mdp-footer-container {
+	background-color: #1A0D04;
+	bottom: 0;
+	height: auto;
+	position: fixed;
+	width: 100%;
+
+	ul {
+		font-size: 0;
+		height:auto;
+		margin: 0 auto;
+		width:100%;
+		display:flex;
+		flex-flow:row wrap;
+		justify-content:center;
+
+		li {
+
+			a {
+				color: #93B85F;
+				display: block;
+				font-family: $fontArial;
+				font-size: 12px;
+				font-weight: bold;
+				line-height: 16px;
+				letter-spacing: 1px;
+				padding: 5px 40px;					
+				text-align:center;
+			}
+
+			&:hover {
+				background-color:#361C0A;
+			}
+		}
+	}
+}
