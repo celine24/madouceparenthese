@@ -11,8 +11,21 @@
 |
 */
 
+/*ROUTE BACK*/
+/*pour l'authentification, tout se passe dans le dossier vendor/bestmomo */
+get('accueil', '\Bestmomo\Scafold\Http\Controllers\HomeController@index');
+get('pages', 'back\PagesController@index');
+get('articles', 'back\ArticlesController@index');
 
-Route::get('/', function () {
+Route::controllers([
+	'auth' => 'Auth\AuthController',
+	'password' => 'Auth\PasswordController',
+]);
+
+
+
+/*ROUTES FRONT*/
+get('/', function () {
     return view('front.template');
 });
 
@@ -32,4 +45,3 @@ get('/', ['uses' => 'WelcomeController@index', 'as' => 'home']);
 ->Ici on nomme home la route vers la méthode index du contrôleur HomeController 
 pour l'URL de base.*/
 
-/*pour l'authentification, tout se passe dans le dossier vendor/bestmomo */
