@@ -11,13 +11,14 @@
 |
 */
 
+
 Route::get('/', function () {
     return view('front.template');
 });
 
-Route::get('{page}', function ($page) {
+/*Route::get('{page}', function ($page) {
 	return response('Je suis la page ' . $page . ' !', 200); 
-})->where('page', '[a-z]+');
+})->where('page', '[a-z]+');*/
 
 /*pour les articles : 
 Route::get('article/{n}', function ($n) {
@@ -30,3 +31,5 @@ Route::get('article/{n}', function ($n) {
 get('/', ['uses' => 'WelcomeController@index', 'as' => 'home']);
 ->Ici on nomme home la route vers la méthode index du contrôleur HomeController 
 pour l'URL de base.*/
+
+/*pour l'authentification, tout se passe dans le dossier vendor/bestmomo */

@@ -145,6 +145,10 @@ return [
         App\Providers\RouteServiceProvider::class,
         Collective\Html\HtmlServiceProvider::class, /*ligne ajoutée avec tuto OC -instal et orga, fin de page*/
 
+        Barryvdh\Debugbar\ServiceProvider::class, /*debugbar*/
+
+        Bestmomo\Scafold\ScafoldServiceProvider::class, /*package scafold pour authentification*/
+
     ],
 
     /*
@@ -194,6 +198,8 @@ return [
         'View'      => Illuminate\Support\Facades\View::class,
         'Form'  => Collective\Html\FormFacade::class, /*ligne ajoutée avec tuto OC -instal et orga, fin de page*/
         'Html'  => Collective\Html\HtmlFacade::class, /*ligne ajoutée avec tuto OC -instal et orga, fin de page*/
+
+        'Debugbar' => Barryvdh\Debugbar\Facade::class, /*debugbar*/
 
     ],
 
