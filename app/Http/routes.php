@@ -16,6 +16,8 @@
 get('accueil', '\Bestmomo\Scafold\Http\Controllers\HomeController@index');
 get('pages', 'back\PagesController@index');
 get('articles', 'back\ArticlesController@index');
+get('mise-en-avant', 'back\SidebarController@index');
+get('galerie', 'back\GalleryController@index');
 
 Route::controllers([
 	'auth' => 'Auth\AuthController',
