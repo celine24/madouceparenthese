@@ -29,17 +29,9 @@ footer#mdp-footer-container ul {
   height: auto;
   margin: 0 auto;
   width: 100%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-flex-flow: row wrap;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 
 footer#mdp-footer-container ul li a {
@@ -72,7 +64,6 @@ header#mdp-header-container #mdp-header-logo-container {
 }
 
 header#mdp-header-container nav {
-  background: transparent -webkit-linear-gradient(top, #2B1608 0%, #1A0D04 100%) repeat scroll 0% 0%;
   background: transparent linear-gradient(to bottom, #2B1608 0%, #1A0D04 100%) repeat scroll 0% 0%;
   box-shadow: 0 -5px 20px 5px #000;
   width: 100%;
@@ -83,17 +74,9 @@ header#mdp-header-container nav ul {
   height: 40px;
   margin: 0 auto;
   max-width: 990px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-flex-flow: row wrap;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 
 header#mdp-header-container nav ul li a {
