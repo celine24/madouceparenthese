@@ -11,18 +11,26 @@
 |
 */
 
-/*ROUTE BACK*/
-/*pour l'authentification, tout se passe dans le dossier vendor/bestmomo */
-get('accueil', '\Bestmomo\Scafold\Http\Controllers\HomeController@index');
-get('pages', 'back\PagesController@index');
-get('articles', 'back\ArticlesController@index');
-get('mise-en-avant', 'back\SidebarController@index');
-get('galerie', 'back\GalleryController@index');
+/*ROUTES BACK*/
 
-Route::controllers([
-	'auth' => 'Auth\AuthController',
-	'password' => 'Auth\PasswordController',
-]);
+Route::group(['prefix' => 'admin'], function() {
+
+	Route::group(['middleware' => 'auth'], function () {
+    /*pour l'authentification, tout se passe dans le dossier vendor/bestmomo */
+    Route::get('accueil', '\Bestmomo\Scafold\Http\Controllers\HomeController@index');
+	Route::resource('pages', 'back\PagesController@index');
+	Route::resource('articles', 'back\ArticlesController@index');
+	Route::resource('mise-en-avant', 'back\SidebarController@index');
+	Route::resource('galerie', 'back\GalleryController@index');
+
+	});
+
+	Route::controllers([
+		'auth' => 'Auth\AuthController',
+		'password' => 'Auth\PasswordController',
+	]);
+
+});
 
 
 
