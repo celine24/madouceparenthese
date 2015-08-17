@@ -35,11 +35,11 @@
 
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
-					<li><a href="{{ url('admin/accueil') }}">Accueil</a></li>
-					<li><a href="{{ url('admin/pages') }}">Mes Pages</a></li>
-					<li><a href="{{ url('admin/articles') }}">Mes Articles</a></li>
-					<li><a href="{{ url('admin/mise-en-avant') }}">Mise en Avant</a></li>
-					<li><a href="{{ url('admin/galerie') }}">Ma Galerie</a></li>
+					<li><a href="{{ route('admin.home') }}">Accueil</a></li>
+					<li><a href="{{ route('admin.pages.index') }}">Mes Pages</a></li>
+					<li><a href="{{ route('admin.articles.index') }}">Mes Articles</a></li>
+					<li><a href="{{ route('admin.mise-en-avant.index') }}">Mise en Avant</a></li>
+					<li><a href="{{ route('admin.galerie.index') }}">Ma Galerie</a></li>
 				</ul>
 
 				<ul class="nav navbar-nav navbar-right">

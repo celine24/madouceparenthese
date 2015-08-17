@@ -25,7 +25,7 @@
 					</tr>
 				</tbody>
 			</table>
-			<a class="btn btn-default pull-right" href="#" role="button">Créer une page</a>
+			<a class="btn btn-default pull-right" href="{{ route('admin.pages.create') }}" role="button">Créer une page</a>
 		</div>
 	</section>
 </div>

@@ -1,7 +1,14 @@
 <?php 
 
 namespace App\Http\Controllers\Back;
-use App\Http\Controllers\Controller;
+
+use App\Http\Controllers\Controller as Controller;
+
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Session;
+use Illuminate\Support\Facades\Validator;
+use App\User;
 
 class PagesController extends Controller
 {
@@ -18,8 +25,8 @@ class PagesController extends Controller
      */
     public function create(Request $request)
     {
-        $auth_id = Auth::user()->id;
-        return view('back.pages.create', compact('auth_id'));
+       /* $auth_id = Auth::user()->id;*/
+        return view('back.pages.create');
     }
 
 
