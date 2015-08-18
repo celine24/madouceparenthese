@@ -34,7 +34,7 @@
 						</tbody>
 						</tfoot>
 					</table>
-					<a class="btn btn-default pull-right" href="#" role="button">Créer un article</a>
+					<a class="btn btn-default pull-right" href="{{ route('admin.articles.create') }}" role="button">Créer un article</a>
 		</div>
 	</section>
 </div>
