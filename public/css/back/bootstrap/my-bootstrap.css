@@ -53,3 +53,36 @@ caption {
 	margin-top:50px !important;
 }
 
+.modal {
+	display:block;
+	top:35%;
+}
+
+.mdp-published {
+	width:25px;
+	height:25px;
+	padding:3px 5px;
+}
+
+.mdp-btn-list {
+	margin:0 5px !important;
+	float:left;
+}
+
+.mdp-form-inline {
+	display:flex;
+	flex-flow: row wrap;
+	justify-content:flex-start;
+}
+
+.mdp-form-inline > div {
+	margin:0 50px 0 0;
+}
+
+.mdp-form-inline > div:last-child {
+	margin-top:20px;
+}
+
+.mdp-btn-space {
+	margin:5px;
+}

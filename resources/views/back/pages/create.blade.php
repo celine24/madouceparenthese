@@ -5,6 +5,18 @@
 	<section class="row">
 		<h1>Créer une page</h1>
 		<div class="col-md-12">
+
+            @if (count($errors) > 0)
+                <div class="alert alert-danger">
+                    <strong>Whoops !</strong> Il y'a un problème avec les données envoyées !<br><br>
+                    <ul>
+                        @foreach ($errors->all() as $error)
+                            <li>{{ $error }}</li>
+                        @endforeach
+                    </ul>
+                </div>
+            @endif
+
 			{!! Form::open(['route' => ['admin.pages.store'], 'id' => 'form-main', 'class' => 'center-block']) !!}
                
                 <!--{{-- {!! Form::hidden('user_id',$auth_id) !!} --}}-->
@@ -30,24 +42,44 @@
                     {!! Form::textarea('content', 
                                         null, 
                                         ['class' => 'form-control', 
-                                        'id' => 'article-ckeditor', 
-                                        'placeholder' => 'Entrez le resume ici...', 
+                                        'id' => 'ckeditor', 
+                                        'placeholder' => 'Entrez votre texte ici...', 
                                         'size' => '30x3',  
                                         'required']
                     )!!}
+                    
                 </div>
-                <div class="form-group">
-                    {!! Form::label('url',
-                                    'Url de la page') 
-                    !!}
 
-                    {!! Form::url('url', 
-                                    null, 
-                                    ['class' => 'form-control', 
-                                    'maxlength' => '50',
-                                    'placeholder' => 'Entrez ici l\'url de votre page (50 caractères maximun)', 
-                                    'required']
-                    )!!}
+                <div class="mdp-form-inline">
+                    <div class="form-group">
+                        {!! Form::label('url',
+                                        'Url de la page') 
+                        !!}
+
+                        {!! Form::text('url', 
+                                        null, 
+                                        ['class' => 'form-control', 
+                                        'maxlength' => '50',
+                                        'placeholder' => '20 caractères maximum', 
+                                        'required']
+                        )!!}
+                    </div>
+
+                    <div class="form-group">
+                        {!! Form::label('location',
+                                        'Emplacement du lien') 
+                        !!}
+
+                        {!! Form::select('location', ['main' => 'Menu principal', 'footer' => 'Bas de page'], null, ['class' => 'form-control']
+                        )!!}
+                    </div>
+
+                    <div class="form-group">
+                        <div class="checkbox checkbox-success">
+                            {!! Form::checkbox('published', '1', false, ["id" => "checkbox1", "class" => "checkbox checkbox-success"]) !!}
+                            {!! Form::label('checkbox1','Mettre en ligne ?') !!}
+                        </div>
+                    </div>
                 </div>
 
                 {!! Form::submit('Envoyer', 

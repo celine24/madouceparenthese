@@ -1,9 +1,7 @@
 <footer id="mdp-footer-container">
 	<ul>
-		<li><a href="#">menu</a></li>
-		<li><a href="#">menu</a></li>
-		<li><a href="#">menu</a></li>
-		<li><a href="#">menu</a></li>
-		<li><a href="#">menu</a></li>
-	</ul>
+		@foreach ($menu_footer as $menu)
+			<li><a href="{{ $menu->url }}">{{ ucfirst($menu->title) }}</a></li>
+		@endforeach
+		</ul>
 </footer>

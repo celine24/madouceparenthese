@@ -4,9 +4,9 @@
 	</div>
 	<nav>
 		<ul>
-			<li><a href="">menu </a></li>
-			<li><a href="">menu </a></li>
-			<li><a href="">menu </a></li>
+		@foreach ($main_menu as $menu)
+			<li><a href="{{ $menu->url }}">{{ ucfirst($menu->title) }}</a></li>
+		@endforeach
 		</ul>
 
 	</nav>

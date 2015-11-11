@@ -146,8 +146,7 @@ return [
         Collective\Html\HtmlServiceProvider::class, /*ligne ajoutée avec tuto OC -instal et orga, fin de page*/
 
         Barryvdh\Debugbar\ServiceProvider::class, /*debugbar*/
-
-        Bestmomo\Scafold\ScafoldServiceProvider::class, /*package scafold pour authentification*/
+        Bestmomo\Scafold\ScafoldServiceProvider::class, /*package scafold pour authentification - ligne à supprimer pour lancer un composer update, puis remettre après*/
 
     ],
 

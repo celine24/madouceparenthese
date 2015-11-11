@@ -12,7 +12,18 @@ class CreatePicturesTable extends Migration
      */
     public function up()
     {
-        //
+        Schema::create('pictures', function(Blueprint $table) {
+
+        $table->increments('id');
+        $table->string('title', 20);
+        $table->longText('content');
+        $table->string('url', 20);
+        $table->string('location');
+        $table->boolean('published');
+        $table->dateTime('created_at');
+        $table->dateTime('updated_at');
+
+    });
     }
 
     /**
@@ -22,6 +33,6 @@ class CreatePicturesTable extends Migration
      */
     public function down()
     {
-        //
+        Schema::drop('pictures');
     }
 }

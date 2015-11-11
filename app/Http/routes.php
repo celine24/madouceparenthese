@@ -36,9 +36,15 @@ Route::group(['prefix' => 'admin'], function() {
 
 
 /*ROUTES FRONT*/
-get('/', function () {
-    return view('front.template');
-});
+
+//Route::get('/', ['as' => '/', 'uses' => 'front\TemplateController']);
+/*Route::get('/', 'front\ViewController@index');*/
+
+Route::get('/{url}', 'front\ViewController@show');
+
+//get('/', function () {
+//    return view('front.template');
+//});
 
 /*Route::get('{page}', function ($page) {
 	return response('Je suis la page ' . $page . ' !', 200); 

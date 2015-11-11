@@ -17,9 +17,11 @@ class CreatePagesTable extends Migration
         $table->increments('id');
         $table->string('title', 20);
         $table->longText('content');
-        $table->string('url', 30);
+        $table->string('url', 20);
+        $table->string('location');
         $table->boolean('published');
         $table->dateTime('created_at');
+        $table->dateTime('updated_at');
 
     });
     }
