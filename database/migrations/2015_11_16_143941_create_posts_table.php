@@ -17,7 +17,7 @@ class CreatePostsTable extends Migration
             $table->increments('id');
             $table->longText('content');
             $table->boolean('published');
-            $table->integer('page_id')->unsigned->index;
+            $table->integer('page_id');
             $table->dateTime('created_at');
             $table->dateTime('updated_at');
 
