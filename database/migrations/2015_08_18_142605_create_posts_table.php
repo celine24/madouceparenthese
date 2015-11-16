@@ -34,3 +34,4 @@ class CreatePostsTable extends Migration
         Schema::drop('posts');
     }
 }
+deleted:    database/migrations/2015_11_10_154157_create_sidebar_table.php

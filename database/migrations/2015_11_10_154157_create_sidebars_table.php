@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateSidebarTable extends Migration
+class CreateSidebarsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -12,7 +12,7 @@ class CreateSidebarTable extends Migration
      */
     public function up()
     {
-        Schema::create('sidebar', function(Blueprint $table) {
+        Schema::create('sidebars', function(Blueprint $table) {
 
         $table->increments('id');
         $table->longText('content');
@@ -30,6 +30,6 @@ class CreateSidebarTable extends Migration
      */
     public function down()
     {
-        Schema::drop('sidebar');
+        Schema::drop('sidebars');
     }
 }
