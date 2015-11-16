@@ -5,7 +5,19 @@
 	<section class="row">
 		<h1>Créer un article</h1>
 		<div class="col-md-12">
-			{!! Form::open(['route' => ['admin.pages.store'], 'id' => 'form-main', 'class' => 'center-block']) !!}
+
+            @if (count($errors) > 0)
+                <div class="alert alert-danger">
+                    <strong>Whoops !</strong> Il y'a un problème avec les données envoyées !<br><br>
+                    <ul>
+                        @foreach ($errors->all() as $error)
+                            <li>{{ $error }}</li>
+                        @endforeach
+                    </ul>
+                </div>
+            @endif
+
+			{!! Form::open(['route' => ['admin.articles.store'], 'id' => 'form-main', 'class' => 'center-block']) !!}
                
                 <!--{{-- {!! Form::hidden('user_id',$auth_id) !!} --}}-->
 

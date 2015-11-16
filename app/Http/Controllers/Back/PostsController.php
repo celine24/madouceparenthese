@@ -40,18 +40,18 @@ class PostsController extends Controller
         $validator = Validator::make($request->all(), [
             'title' => 'required|unique:pages',
             'content' => 'required',
-            'page' => 'required',
+            'page_id' => 'required',
             'published'
         ]);
 
         if($validator->fails()) {
-            return redirect(route('admin.posts.create'))->withErrors($validator);
+            return redirect(route('admin.articles.create'))->withErrors($validator);
         }
 
         else {
             $post = Post::create($request->all());
             $post->save();
-            return redirect(route('admin.posts.index'))->with('message', 'Félicitations ! Votre article a bien été créé :)');
+            return redirect(route('admin.articles.index'))->with('message', 'Félicitations ! Votre article a bien été créé :)');
         }
     }
 }
