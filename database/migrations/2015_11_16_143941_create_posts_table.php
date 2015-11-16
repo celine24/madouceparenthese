@@ -14,14 +14,14 @@ class CreatePostsTable extends Migration
     {
         Schema::create('posts', function(Blueprint $table) {
 
-        $table->increments('id');
-        $table->longText('content');
-        $table->boolean('published');
-        $table->integer('page_id')->unsigned->index;
-        $table->dateTime('created_at');
-        $table->dateTime('updated_at');
+            $table->increments('id');
+            $table->longText('content');
+            $table->boolean('published');
+            $table->integer('page_id')->unsigned->index;
+            $table->dateTime('created_at');
+            $table->dateTime('updated_at');
 
-    });
+        });
     }
 
     /**
