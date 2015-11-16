@@ -10,8 +10,7 @@ class Post extends Model
     protected $fillable = [
         'title',
         'content',
-        'url',
-        'location',
+        'page_id',
         'published'
     ];
 

@@ -105,8 +105,6 @@ class PagesController extends Controller
             $page->update($request->all());
             return redirect(route('admin.pages.index'))->with('message', 'Félicitations ! Votre page vient d\'être éditée :)');
         }
-
-        
     }
 
 

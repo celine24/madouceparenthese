@@ -34,7 +34,7 @@
 							<tr>
 								<td>{{$post->title}}</td>
 								<td>{{$post->content}}</td>
-								<td>{{$post->page_id}}</td>
+								<td>{{$post->page->title}}</td>
 								<td>
 									<a href="{{ route('admin.articles.edit', $post->id) }}" data-toggle="tooltip" title="Editer l'article" class="btn btn-sm btn-info mdp-btn-list"><span class="glyphicon glyphicon-edit"></span></a>
 
