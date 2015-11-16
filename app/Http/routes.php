@@ -20,7 +20,7 @@ Route::group(['prefix' => 'admin'], function() {
     /*pour l'authentification, tout se passe dans le dossier vendor/bestmomo */
     Route::get('/', ['as' => 'admin.home', 'uses' => '\Bestmomo\Scafold\Http\Controllers\HomeController@index']);
 	Route::resource('pages', 'back\PagesController');
-	Route::resource('articles', 'back\ArticlesController');
+	Route::resource('articles', 'back\PostsController');
 	Route::resource('mise-en-avant', 'back\SidebarController');
 	Route::resource('galerie', 'back\GalleryController');
 

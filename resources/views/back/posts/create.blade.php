@@ -37,6 +37,24 @@
                     )!!}
                 </div>
 
+                <div class="mdp-form-inline">
+
+                    <div class="form-group">
+                        {!! Form::label('page_id',
+                                        'Emplacement de l\'article')
+                        !!}
+
+                        {!! Form::select('page_id', $pages, null, ['class' => 'form-control']
+                        )!!}
+                    </div>
+
+                    <div class="form-group">
+                        <div class="checkbox checkbox-success">
+                            {!! Form::checkbox('published', '1', false, ['id' => 'checkbox1', 'class' => 'checkbox checkbox-success']) !!}
+                            {!! Form::label('checkbox1','Mettre en ligne ?') !!}
+                        </div>
+                    </div>
+                </div>
                 {!! Form::submit('Envoyer', 
                                 ['required', 
                                 'name' => 'envoyer', 

@@ -21,7 +21,7 @@ class Page extends Model
      * @param $query
      * @return mixed
      */
-	public function scopeString($query, $string) 
+	public function scopeString($query, $string)
 	{
   		return $query->where('url', $string);
 	}
@@ -33,6 +33,13 @@ class Page extends Model
     public function scopePublished($query)
     {
         return $query->where('published', '1');
+    }
+
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
+    public function posts() {
+        return $this->hasMany('App\Post');
     }
 
 }
