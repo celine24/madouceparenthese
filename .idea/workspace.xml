@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91a0907c-859d-4424-902c-21258c3b00cc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Back/PostsController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Back/PostsController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2015_11_16_143941_create_posts_table.php" afterPath="$PROJECT_DIR$/database/migrations/2015_11_16_143941_create_posts_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/back/posts/create.blade.php" afterPath="$PROJECT_DIR$/resources/views/back/posts/create.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/back/posts/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/back/posts/index.blade.php" />
     </list>
     <ignored path="madouceparenthese.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,12 +25,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/back/posts/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.692307">
-              <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
-              <folding />
+            <state vertical-scroll-proportion="-9.358491">
+              <caret line="53" column="74" selection-start-line="53" selection-start-column="74" selection-end-line="53" selection-end-column="74" />
+              <folding>
+                <marker date="1447692291471" expanded="true" signature="1605:1872" placeholder="..." />
+                <marker date="1447692291471" expanded="true" signature="1617:1834" placeholder="..." />
+                <marker date="1447692291471" expanded="true" signature="1618:1833" placeholder="..." />
+                <marker date="1447692291471" expanded="true" signature="3223:3494" placeholder="..." />
+                <marker date="1447692291471" expanded="true" signature="3235:3456" placeholder="..." />
+                <marker date="1447692291471" expanded="true" signature="3236:3455" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -42,9 +47,17 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-21.576923">
               <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
-              <folding>
-                <element signature="e#45#95#0#PHP" expanded="true" />
-              </folding>
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2015_11_16_143941_create_posts_table.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2015_11_16_143941_create_posts_table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.34304932">
+              <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -52,7 +65,7 @@
       <file leaf-file-name="create.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/back/posts/create.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.115385">
+            <state vertical-scroll-proportion="9.153846">
               <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
               <folding>
                 <marker date="1447690994893" expanded="true" signature="856:957" placeholder="..." />
@@ -77,55 +90,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2015_11_16_143941_create_posts_table.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2015_11_16_143941_create_posts_table.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.30493274">
-              <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="create.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/back/pages/create.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.5">
-              <caret line="13" column="27" selection-start-line="8" selection-start-column="11" selection-end-line="17" selection-end-column="18" />
-              <folding>
-                <marker date="1447677945349" expanded="true" signature="851:950" placeholder="..." />
-                <marker date="1447677945349" expanded="true" signature="864:927" placeholder="..." />
-                <marker date="1447677945349" expanded="true" signature="978:1349" placeholder="..." />
-                <marker date="1447677945349" expanded="true" signature="990:1348" placeholder="..." />
-                <marker date="1447677945349" expanded="true" signature="1080:1326" placeholder="..." />
-                <marker date="1447677945349" expanded="true" signature="1440:1543" placeholder="..." />
-                <marker date="1447677945349" expanded="true" signature="1453:1520" placeholder="..." />
-                <marker date="1447677945349" expanded="true" signature="1571:1996" placeholder="..." />
-                <marker date="1447677945349" expanded="true" signature="1587:1995" placeholder="..." />
-                <marker date="1447677945349" expanded="true" signature="1687:1973" placeholder="..." />
-                <marker date="1447677945349" expanded="true" signature="2163:2266" placeholder="..." />
-                <marker date="1447677945349" expanded="true" signature="2176:2239" placeholder="..." />
-                <marker date="1447677945349" expanded="true" signature="2298:2655" placeholder="..." />
-                <marker date="1447677945349" expanded="true" signature="2310:2654" placeholder="..." />
-                <marker date="1447677945349" expanded="true" signature="2406:2628" placeholder="..." />
-                <marker date="1447677945349" expanded="true" signature="2759:2872" placeholder="..." />
-                <marker date="1447677945349" expanded="true" signature="2772:2845" placeholder="..." />
-                <marker date="1447677945349" expanded="true" signature="2904:3046" placeholder="..." />
-                <marker date="1447677945349" expanded="true" signature="2918:3045" placeholder="..." />
-                <marker date="1447677945349" expanded="true" signature="3508:3724" placeholder="..." />
-                <marker date="1447677945349" expanded="true" signature="3522:3723" placeholder="..." />
-                <marker date="1447677945349" expanded="true" signature="3567:3705" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/back/posts/index.blade.php">
+        <entry file="file://$PROJECT_DIR$/resources/views/back/pages/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-23.538462">
-              <caret line="36" column="80" selection-start-line="36" selection-start-column="80" selection-end-line="36" selection-end-column="88" />
-              <folding />
+            <state vertical-scroll-proportion="-21.576923">
+              <caret line="83" column="40" selection-start-line="38" selection-start-column="28" selection-end-line="97" selection-end-column="56" />
+              <folding>
+                <marker date="1446646566610" expanded="true" signature="1716:1889" placeholder="..." />
+                <marker date="1446646566610" expanded="true" signature="1728:1873" placeholder="..." />
+                <marker date="1446646566610" expanded="true" signature="1729:1872" placeholder="..." />
+                <marker date="1446646566610" expanded="true" signature="3639:3816" placeholder="..." />
+                <marker date="1446646566610" expanded="true" signature="3651:3800" placeholder="..." />
+                <marker date="1446646566610" expanded="true" signature="3652:3799" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -155,9 +132,9 @@
         <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/Redirector.php" />
         <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/ResetsPasswords.php" />
         <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/RedirectsUsers.php" />
-        <option value="$PROJECT_DIR$/resources/views/back/posts/index.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Back/PostsController.php" />
         <option value="$PROJECT_DIR$/resources/views/back/posts/create.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/back/posts/index.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2015_11_16_143941_create_posts_table.php" />
       </list>
     </option>
@@ -235,6 +212,112 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="madouceparenthese" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="madouceparenthese" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="back" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="madouceparenthese" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="madouceparenthese" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="back" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="posts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="madouceparenthese" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="madouceparenthese" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="back" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="madouceparenthese" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="madouceparenthese" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="madouceparenthese" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="madouceparenthese" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="database" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -254,6 +337,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="migrations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="madouceparenthese" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="madouceparenthese" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -356,22 +453,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="84" column="53" selection-start-line="84" selection-start-column="43" selection-end-line="84" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/ResetsPasswords.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -409,7 +490,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#45#95#0#PHP" expanded="true" />
+            <element signature="e#45#95#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -623,7 +704,7 @@
         <state vertical-scroll-proportion="0.59002167">
           <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
           <folding>
-            <element signature="e#45#58#0#PHP" expanded="true" />
+            <element signature="e#45#58#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -649,7 +730,7 @@
         <state vertical-scroll-proportion="-0.0021691974">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#35#74#0#PHP" expanded="true" />
+            <element signature="e#35#74#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -694,14 +775,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/back/posts/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.538462">
-          <caret line="36" column="80" selection-start-line="36" selection-start-column="80" selection-end-line="36" selection-end-column="88" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-15.692307">
@@ -710,19 +783,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Back/PostsController.php">
+    <entry file="file://$PROJECT_DIR$/database/migrations/2015_08_18_142523_create_pages_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/back/pages/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-21.576923">
-          <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+          <caret line="83" column="40" selection-start-line="38" selection-start-column="28" selection-end-line="97" selection-end-column="56" />
           <folding>
-            <element signature="e#45#95#0#PHP" expanded="true" />
+            <marker date="1446646566610" expanded="true" signature="1716:1889" placeholder="..." />
+            <marker date="1446646566610" expanded="true" signature="1728:1873" placeholder="..." />
+            <marker date="1446646566610" expanded="true" signature="1729:1872" placeholder="..." />
+            <marker date="1446646566610" expanded="true" signature="3639:3816" placeholder="..." />
+            <marker date="1446646566610" expanded="true" signature="3651:3800" placeholder="..." />
+            <marker date="1446646566610" expanded="true" signature="3652:3799" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/back/pages/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.5">
+        <state vertical-scroll-proportion="0.019058296">
           <caret line="13" column="27" selection-start-line="8" selection-start-column="11" selection-end-line="17" selection-end-column="18" />
           <folding>
             <marker date="1447677945349" expanded="true" signature="851:950" placeholder="..." />
@@ -753,7 +839,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/back/posts/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.115385">
+        <state vertical-scroll-proportion="9.153846">
           <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
           <folding>
             <marker date="1447690994893" expanded="true" signature="856:957" placeholder="..." />
@@ -777,7 +863,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2015_08_18_142523_create_pages_table.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/back/posts/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.358491">
+          <caret line="53" column="74" selection-start-line="53" selection-start-column="74" selection-end-line="53" selection-end-column="74" />
+          <folding>
+            <marker date="1447692291471" expanded="true" signature="1605:1872" placeholder="..." />
+            <marker date="1447692291471" expanded="true" signature="1617:1834" placeholder="..." />
+            <marker date="1447692291471" expanded="true" signature="1618:1833" placeholder="..." />
+            <marker date="1447692291471" expanded="true" signature="3223:3494" placeholder="..." />
+            <marker date="1447692291471" expanded="true" signature="3235:3456" placeholder="..." />
+            <marker date="1447692291471" expanded="true" signature="3236:3455" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Back/PostsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-21.576923">
+          <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Roadweb/database/migrations/2015_04_11_142849_create_posts_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6289238">
+          <caret line="34" column="29" selection-start-line="31" selection-start-column="8" selection-end-line="38" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Roadweb/database/migrations/2015_04_25_154847_create_jobs_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -787,8 +904,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2015_11_16_143941_create_posts_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30493274">
-          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.34304932">
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
           <folding />
         </state>
       </provider>

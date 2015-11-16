@@ -18,10 +18,13 @@ class CreatePostsTable extends Migration
             $table->string('title', 100);
             $table->longText('content');
             $table->boolean('published');
-            $table->integer('page_id');
             $table->dateTime('created_at');
             $table->dateTime('updated_at');
 
+        });
+
+        Schema::table('posts', function(Blueprint $table){
+            $table->integer('page_id')->unsigned()->index();
         });
     }
 
