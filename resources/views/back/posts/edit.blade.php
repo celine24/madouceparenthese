@@ -30,7 +30,7 @@
                         {!! Form::text('title',
                                         null,
                                         ['class' => 'form-control',
-                                        'maxlength' => '20',
+                                        'maxlength' => '100',
                                         'placeholder' => 'Entrez ici le titre de votre article (20 caractères maximun)',
                                         'required']
                         )!!}

@@ -32,10 +32,10 @@
 						<tbody>
 						@foreach ($posts as $post)
 							<tr>
-								<td>{{$post->title}}</td>
-								<td>{{$post->content}}</td>
-								<td>{{$post->page->title}}</td>
-								<td>
+								<td class="col-md-2">{{$post->title}}</td>
+								<td class="col-md-6">{{str_limit($post->content, $limit = 100, $end = '...')}}</td>
+								<td class="col-md-2">{{$post->page->title}}</td>
+								<td class="col-md-2">
 									<a href="{{ route('admin.articles.edit', $post->id) }}" data-toggle="tooltip" title="Editer l'article" class="btn btn-sm btn-info mdp-btn-list"><span class="glyphicon glyphicon-edit"></span></a>
 
 									<a href="{{ route('admin.articles.edit', $post->id) }}" data-toggle="tooltip" title="Prévisualiser l'article" class="btn btn-sm btn-primary mdp-btn-list"><span class="glyphicon glyphicon-search"></span></a>

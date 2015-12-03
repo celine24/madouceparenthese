@@ -2,6 +2,12 @@
 
 @section('content')
 
-<h1>{{$view->content}}</h1>
 
+    @foreach ($posts as $post)
+    <article>
+        <h1>{{$post->title}}</h1>
+
+        {!! $post->content !!}
+    </article>
+    @endforeach
 @stop

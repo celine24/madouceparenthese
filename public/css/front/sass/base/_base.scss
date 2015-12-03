@@ -1,3 +1,15 @@
+* {
+	border-box:box-sizing;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	color: $fontMainColor;
+	font-family: $fontArial;
+	font-size: $fontSize;
+}
+
 #container {
 	background-image: url("../../img/fond.jpg");
 	background-position: center top;
@@ -5,6 +17,49 @@
 	margin:0;
 	max-width: 100%;
 	height:300px;
+}
+
+#wrapper {
+	font-size: 12px;
+	height: auto;
+	margin: 0 auto;
+	padding: 90px 10px 50px 10px;
+	text-align: left;
+	width: 970px;
+}
+
+ul#ariane {
+	margin-bottom: 30px;
+	padding-left:0;
+}
+ul#ariane li {
+	display: inline;
+	font-size: $fontSize - 0.3em;
+	letter-spacing: 1px;
+	text-transform: lowercase;
+}
+
+section {
+	display: inline-block;
+	vertical-align: top;
+	width: 700px;
+}
+
+aside {
+	-moz-border-radius: 50px;
+	-moz-box-shadow: inset 0 -5px 20px 5px #b6e24b;
+	-o-box-shadow: inset 0 -5px 20px 5px #b6e24b;
+	-webkit-border-radius: 50px;
+	-webkit-box-shadow: inset 0 -5px 20px 5px #b6e24b;
+	background-color: #c8ef88;
+	border-radius: 50px;
+	box-shadow: inset 0 0 20px 5px #b6e24b;
+	display: inline-block;
+	margin-left: 30px;
+	padding: 0px 25px 25px 25px;
+	text-align: center;
+	vertical-align: top;
+	width: 184px;
 }
 
 a {

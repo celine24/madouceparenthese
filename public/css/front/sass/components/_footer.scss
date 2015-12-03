@@ -1,12 +1,11 @@
 footer#mdp-footer-container {
-	background-color: #1A0D04;
+	background-color: $brownDark;
 	bottom: 0;
-	height: auto;
+	height: 28px;
 	position: fixed;
 	width: 100%;
 
 	ul {
-		font-size: 0;
 		height:auto;
 		margin: 0 auto;
 		width:100%;
@@ -17,19 +16,19 @@ footer#mdp-footer-container {
 		li {
 
 			a {
-				color: #93B85F;
+				color: $green;
 				display: block;
 				font-family: $fontArial;
-				font-size: 12px;
 				font-weight: bold;
-				line-height: 16px;
+				line-height: $lineHeight;
+				font-size:$fontSize;
 				letter-spacing: 1px;
 				padding: 5px 40px;					
 				text-align:center;
 			}
 
 			&:hover {
-				background-color:#361C0A;
+				background-color:$brownMedium;
 			}
 		}
 	}

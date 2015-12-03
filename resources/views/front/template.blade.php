@@ -12,7 +12,24 @@
 
 <div id="container">
 
-@yield('content')
+    <div id="wrapper">
+
+        <ul id="ariane">
+            <li>Ma douce parenthèse ></li>
+            <li><a href="index.htm">Accueil</a></li>
+        </ul>
+
+        <section>
+
+            @yield('content')
+
+        </section>
+
+        <aside>
+            @yield('sidebar')
+        </aside>
+
+    </div>
 
 </div>
 
