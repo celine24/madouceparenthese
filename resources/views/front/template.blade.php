@@ -5,6 +5,7 @@
     <title>Ma Douce Parenthèse</title>
     <link rel="stylesheet" href="{{ asset('css/front/knacss/knacss.css') }}"/>
     <link rel="stylesheet" href="{{ asset('css/front/style.css') }}"/>
+    <link href="{{ asset('css/front/fancybox/fancybox.css') }}" rel="stylesheet">
 
 </head>
 <body>
@@ -37,5 +38,15 @@
 </div>
 
 @include('front.components.footer')
+
+<script src="{{ asset('js/jquery-1.4.3.js') }}"></script>
+<script src="{{ asset('js/jquery.min.js') }}"></script>
+<script src="{{ asset('js/fancybox/jquery.fancybox-1.3.4.pack.js') }}"></script>
+<script src="{{ asset('js/fancybox/jquery.easing-1.3.pack.js') }}"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $(".img_fancybox").fancybox();
+    });
+</script>
 </body>
 </html>

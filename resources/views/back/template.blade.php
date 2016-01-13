@@ -11,6 +11,7 @@
 	<link href="{{ asset('css/back/bootstrap/my-bootstrap.css') }}" rel="stylesheet">
 	<link href="{{ asset('css/back/bootstrap/checkbox.bootstrap.css') }}" rel="stylesheet">
 
+
 	<!-- Fonts -->
 	<link href='//fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
 
@@ -65,11 +66,13 @@
 	@yield('content')
 
 	<!-- Scripts -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+	<script src="{{ asset('js/jquery.min.js') }}"></script>
 	<script src="{{ asset('js/bootstrap/bootstrap.min.js') }}"></script>
 	<script src="{{ asset('js/bootstrap/jquery.confirm.js') }}"></script>
 	<script src="{{ asset('js/bootstrap/app.js') }}"></script>
 	<script src="{{ asset('../vendor/unisharp/laravel-ckeditor/ckeditor.js') }}"></script>
+	<script src="{{ asset('js/fancybox/fancybox.js') }}"></script>
+	<script src="{{ asset('js/fancybox/jquery.fancybox-1.3.4.pack.js') }}"></script>
 	<script>
         CKEDITOR.replace('ckeditor');
     </script>
