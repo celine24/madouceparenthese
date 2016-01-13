@@ -5,7 +5,11 @@
     <title>Ma Douce Parenthèse</title>
     <link rel="stylesheet" href="{{ asset('css/front/knacss/knacss.css') }}"/>
     <link rel="stylesheet" href="{{ asset('css/front/style.css') }}"/>
-    <link href="{{ asset('css/front/fancybox/fancybox.css') }}" rel="stylesheet">
+
+    <!-- fancybox -->
+    <link rel="stylesheet" href="{{ asset('css/front/fancybox/jquery.fancybox-buttons.css') }}" type="text/css" media="screen" />
+    <link rel="stylesheet" href="{{ asset('css/front/fancybox/jquery.fancybox.css') }}" type="text/css" media="screen" />
+    <link rel="stylesheet" href="{{ asset('css/front/fancybox/jquery.fancybox-thumbs.css')}}" type="text/css" media="screen" />
 
 </head>
 <body>
@@ -39,13 +43,32 @@
 
 @include('front.components.footer')
 
-<script src="{{ asset('js/jquery-1.4.3.js') }}"></script>
-<script src="{{ asset('js/jquery.min.js') }}"></script>
-<script src="{{ asset('js/fancybox/jquery.fancybox-1.3.4.pack.js') }}"></script>
-<script src="{{ asset('js/fancybox/jquery.easing-1.3.pack.js') }}"></script>
+<!-- jQuery library -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+<!-- mousewheel plugin (optional) -->
+<script type="text/javascript" src="{{ asset('js/fancybox/jquery.mousewheel-3.0.6.pack.js') }}"></script>
+
+<!-- Add fancyBox -->
+<script type="text/javascript" src="{{ asset('js/fancybox/jquery.fancybox.pack.js') }}"></script>
+
+<!-- Optionally add helpers - button, thumbnail and/or media -->
+<script type="text/javascript" src="{{ asset('js/fancybox/jquery.fancybox-buttons.js') }}"></script>
+<script type="text/javascript" src="{{ asset('js/fancybox/jquery.fancybox-media.js') }}"></script>
+<script type="text/javascript" src="{{ asset('js/fancybox/jquery.fancybox-thumbs.js') }}"></script>
+
 <script type="text/javascript">
     $(document).ready(function() {
-        $(".img_fancybox").fancybox();
+        $(".fancybox").fancybox();
+    });
+    $(".fancybox").fancybox({
+        helpers : {
+            overlay : {
+                css : {
+                    'background' : 'rgba(58, 42, 45, 0.95)'
+                }
+            }
+        }
     });
 </script>
 </body>
