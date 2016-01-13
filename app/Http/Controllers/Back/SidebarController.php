@@ -29,7 +29,7 @@ class SidebarController extends Controller
     {	
         $sidebar = Sidebar::findOrFail($id);
 
-        if ($request->has('publication')) 
+        if ($request->has('publication'))
         {
             $sidebar->published = $request->get('publication');
             $sidebar->update($request->all());

@@ -38,7 +38,7 @@
                         class="btn btn-warning mdp-btn-space pull-right"
                         type="submit"
                         data-toggle="tooltip"
-                        title="Dépublier la page"
+                        title="Dépublier la section"
                         data-confirm="delete"
                         data-text="Voulez-vous vraiment dépublier la section de mise en avant ? Elle ne sera plus visible sur le site, mais vous pourrez la remettre en ligne à tout moment."
                         data-confirm-button="Oui"

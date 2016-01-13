@@ -25,7 +25,7 @@ article {
 
   p {
     font-family: $fontArial;
-    font-size: 1em;
+    font-size: $fontSize;
     line-height:  $lineHeight;
     padding:5px 0;
     text-align: justify;
@@ -58,6 +58,10 @@ article {
     display:block;
   }
 
+  iframe {
+    margin:auto;
+    display:block
+  }
 }
 
 

@@ -12,14 +12,7 @@
 			@endif
 			<p class="bg-primary">Ici vous pouvez consulter la liste de vos articles, gérer ces derniers et en créer de nouveaux.</p>
 			
-				<form>
-					<div class="form-group">
-						<label for="articles-description">En-tête de la page articles :</label>
-						<textarea class="form-control" rows="3">description de la page articles</textarea>
-					</div>
-					<input class="btn btn-default pull-right" type="submit" value="Éditer">
-				</form>
-					<table class="table table-striped table-bordered table-condensed">
+				<table class="table table-striped table-bordered table-condensed">
 						<caption>Liste des articles</caption>
 						<thead>
 							<tr>

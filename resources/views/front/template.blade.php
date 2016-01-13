@@ -25,10 +25,13 @@
 
         </section>
 
-        <aside>
-            @yield('sidebar')
-        </aside>
+        @if ($sidebar->published === 1)
+        <aside class="sidebar">
 
+            {!! $sidebar->content !!}
+
+        </aside>
+        @endif
     </div>
 
 </div>

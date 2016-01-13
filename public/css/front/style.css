@@ -43,24 +43,7 @@ ul#ariane li {
 section {
   display: inline-block;
   vertical-align: top;
-  width: 700px;
-}
-
-aside {
-  -moz-border-radius: 50px;
-  -moz-box-shadow: inset 0 -5px 20px 5px #b6e24b;
-  -o-box-shadow: inset 0 -5px 20px 5px #b6e24b;
-  -webkit-border-radius: 50px;
-  -webkit-box-shadow: inset 0 -5px 20px 5px #b6e24b;
-  background-color: #c8ef88;
-  border-radius: 50px;
-  box-shadow: inset 0 0 20px 5px #b6e24b;
-  display: inline-block;
-  margin-left: 30px;
-  padding: 0px 25px 25px 25px;
-  text-align: center;
-  vertical-align: top;
-  width: 184px;
+  width: 690px;
 }
 
 a {
@@ -162,7 +145,7 @@ header#mdp-header-container nav ul li a {
   line-height: 1.2em;
   font-size: 1.1em;
   font-weight: bold;
-  height: 20px;
+  height: auto;
   letter-spacing: 1px;
   padding: 10px 35px;
   text-align: center;
@@ -170,6 +153,56 @@ header#mdp-header-container nav ul li a {
 
 header#mdp-header-container nav ul li:hover {
   background-color: #361C0A;
+}
+
+.sidebar {
+  -moz-border-radius: 50px;
+  -moz-box-shadow: inset 0 -5px 20px 5px #b6e24b;
+  -o-box-shadow: inset 0 -5px 20px 5px #b6e24b;
+  -webkit-border-radius: 50px;
+  -webkit-box-shadow: inset 0 -5px 20px 5px #b6e24b;
+  background-color: #c8ef88;
+  border-radius: 50px;
+  box-shadow: inset 0 0 20px 5px #b6e24b;
+  display: inline-block;
+  margin-left: 20px;
+  padding: 20px;
+  text-align: center;
+  vertical-align: top;
+  width: 230px;
+}
+
+.sidebar h1, .sidebar h2, .sidebar h3, .sidebar h4, .sidebar h5, .sidebar h6 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.7em;
+  text-decoration: underline;
+  font-weight: lighter;
+}
+
+.sidebar p {
+  text-align: justify;
+  line-height: 1.2em;
+  padding-bottom: 10px;
+}
+
+.sidebar p:last-of-type img {
+  border: 0 solid;
+}
+
+.sidebar img {
+  margin: 10px auto 0;
+  display: block;
+  border: 1px solid;
+}
+
+.sidebar a, .sidebar a:active, .sidebar a:visited, .sidebar a:focus {
+  color: #2F4B09;
+  font-weight: 600;
+  outline: medium none;
+}
+
+.sidebar a:hover, .sidebar a:active:hover, .sidebar a:visited:hover, .sidebar a:focus:hover {
+  text-decoration: underline;
 }
 
 /*
@@ -204,7 +237,7 @@ article h2 {
 
 article p {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1em;
+  font-size: 1.1em;
   line-height: 1.2em;
   padding: 5px 0;
   text-align: justify;
@@ -231,6 +264,11 @@ article a:hover, article a :active, article a :focus, article a:visited:hover, a
 }
 
 article img {
+  margin: auto;
+  display: block;
+}
+
+article iframe {
   margin: auto;
   display: block;
 }
